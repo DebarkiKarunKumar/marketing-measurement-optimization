@@ -1,0 +1,22 @@
+*.csv 
+*.pkl
+# --- Project Data & Outputs ---
+data/
+reports/
+!README.md
+
+# --- Python & Jupyter Notebooks ---
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Power BI Local Cache ---
+*.pbi
+*.pbix.pbi
+
+# --- Environment & Credentials (Crucial for APIs) ---
+.env
+.venv/
+venv/
+ENV/
